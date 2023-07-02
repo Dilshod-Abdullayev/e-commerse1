@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav.scrolled {
+  background-color: #f8f8f8;
+}
+
+/* Qolgan komponentlar uchun stil attributlarini kerakli bo'lgan tartibda qo'shishingiz mumkin */
+
+.nav__items {
+  display: flex;
+}
