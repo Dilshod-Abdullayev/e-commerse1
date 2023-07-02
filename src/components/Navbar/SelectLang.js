@@ -9,7 +9,7 @@ const SelectLang = () => {
   };
 
   return (
-    <Select defaultValue="option1" onChange={handleChange}>
+    <Select  defaultValue="option1" onChange={handleChange}>
       <Option value="option1">o`z</Option>
       <Option value="option2">уз</Option>
       <Option value="option3">eng</Option>
