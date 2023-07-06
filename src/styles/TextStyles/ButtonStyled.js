@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const StyledYellow = styled.button`
-
   border-radius: 16px;
   border: none;
   padding: 28px 32px;

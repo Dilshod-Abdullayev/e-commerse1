@@ -25,9 +25,17 @@ export const StyledGrey = styled.p`
 `;
 export const StyledTitle = styled.h1`
   color: #274c5b;
-  font-size: 70px;
+  font-size: 50px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
 `;
+export const Textp = styled.p`
+color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%;
+`
