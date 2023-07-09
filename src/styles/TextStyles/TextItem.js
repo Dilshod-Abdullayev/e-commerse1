@@ -39,3 +39,20 @@ font-style: normal;
 font-weight: 400;
 line-height: 165.4%;
 `
+export const StyledTitlemini = styled.h1`
+text-align:center;
+color: #7EB693;
+font-family: Yellowtail;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+`
+export const StyledPath = styled.h1`
+color: #274C5B;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+`

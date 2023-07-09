@@ -1,10 +1,10 @@
 import React from "react";
-import Main from "./components/Main";
+import MainRouter from './Routes/MainRouter'
 import "./App.css";
 export default function App() {
   return (
     <div className="app container">
-      <Main />
+         <MainRouter/>
     </div>
   );
 }
