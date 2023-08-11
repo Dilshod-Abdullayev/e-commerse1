@@ -19,7 +19,6 @@ export default function CustomerStatistic() {
         <h1>25+</h1>
         <p>Years of Farming</p>
       </div>
-
     </div>
   )
 }

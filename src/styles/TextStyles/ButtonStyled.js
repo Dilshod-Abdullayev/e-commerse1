@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const StyledYellow = styled.button`
   border-radius: 16px;
   border: none;
-  padding: 28px 32px;
+  padding: 14px 32px;
   background: #efd372;
   color: #274c5b;
-  font-size: 20px;
+  font-size: 21px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -27,3 +27,15 @@ border-radius: 8px;
 background: #274C5B;
 font-weight: 600;
 line-height: normal;`
+export const StyledButtonGrey = styled.button`
+border-radius: 49px;
+padding:15px 18px;
+border:none;
+color: #274C5B;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+background: #ECECEC;
+`

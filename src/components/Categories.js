@@ -8,7 +8,7 @@ import { StyledBtntitle } from '../styles/TextStyles/ButtonStyled';
 import { StyledPath } from '../styles/TextStyles/TextItem';
 export default function Categories() {
     return (
-        <div>
+        <div className='categories'>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
@@ -35,7 +35,7 @@ export default function Categories() {
                 <div className='category__boxs'>
                     {
                         category.map((item) => (
-                            <SwiperSlide perSlide key={item.id}>
+                            <SwiperSlide style={{marginLeft:'50px'}} perSlide key={item.id}>
                                 <div className='category__box'>
                                     <StyledBtntitle>{item.text}</StyledBtntitle>
                                     <img src={item.img} />
